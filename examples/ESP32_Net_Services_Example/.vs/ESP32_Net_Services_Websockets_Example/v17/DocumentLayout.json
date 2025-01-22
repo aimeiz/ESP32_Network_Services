@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\ESP32_Net_Services_Websockets_Example.ino||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|solutionrelative:ESP32_Net_Services_Websockets_Example.ino||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\SZKICOWNIK\\LIBRARIES\\ESP32_NETWORK_SERVICES\\ESP32_NETWORK_SERVICES.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\WebPage.html||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|solutionrelative:WebPage.html||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\PageOld.html||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CEA5D19F-A4A4-417F-BA57-5B0974A487EE}|ESP32_Net_Services_Websockets_Example.vcxproj|solutionrelative:PageOld.html||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebPage.html",
+              "DocumentMoniker": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\WebPage.html",
+              "RelativeDocumentMoniker": "WebPage.html",
+              "ToolTip": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\WebPage.html",
+              "RelativeToolTip": "WebPage.html",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-22T12:44:33.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PageOld.html",
+              "DocumentMoniker": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\PageOld.html",
+              "RelativeDocumentMoniker": "PageOld.html",
+              "ToolTip": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\PageOld.html",
+              "RelativeToolTip": "PageOld.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-22T12:38:08.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ESP32_Net_Services_Websockets_Example.ino",
+              "DocumentMoniker": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\ESP32_Net_Services_Websockets_Example.ino",
+              "RelativeDocumentMoniker": "ESP32_Net_Services_Websockets_Example.ino",
+              "ToolTip": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\ESP32_Net_Services_Websockets_Example\\ESP32_Net_Services_Websockets_Example.ino",
+              "RelativeToolTip": "ESP32_Net_Services_Websockets_Example.ino",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd\u002BUAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAeASURBVEhLxVZrbBxXFf5mZmd212t7vbbXju3YTuLacRMHC1AgqpQUKE7jFir\u002BpDWUCgFSRBFSSVqEkED8AAlVoanCoyCEEEhV2zQgQUjSqkGhadpKkGLsxK6NH0ns\u002BL32ep\u002BzO8/Ld3eTtmlaQf/AsY537p1zz3fOd849u/ifihBCuf54i2xoa0N9NIqjfzxhfPuls9E9vT0bJ7PZrrTtbLY8r07aBDVtLWroVzqrqiZeGR6Ze3zvp9KPfO4\u002BezWdxtLsbMnPu\u002BUWwJ6eHtg1MXzziSPa9taNrYeHR3bP5vP9KdveWXS9Zsf3Q/71c5oCEVDUYiigLcT04ButlRWnv9Xbc/7Na3PXnnz0kGek1jEyMlLye0NuAuzasQOf/\u002B73sNLUElkpFD/xr1T6S0nbupMgdUJAfT86BFWBInRNWa01gue6a6K/jYdD5xoW5/PP/vAHmLh0qWxI0a5/ormzE3sOPobp\u002BnjN5Uz2wYlU6js5x9mtApW6qio64QLvo9ffMV8RMV1n67Jp9vKsnaqITHXdvq2YGB9DNpks4ZQAG5uacOjnT2GssjpC4wfnTfMQw\u002B4yNE0L0I/2X6q0Daiq6voinrbtbkWIrBKrHRvYt8\u002B5\u002BNeXkc9lwQQAU1ExZITUguvuWTTNhxnFlpCmqh8E7IbKM/Ks9CF9Wa63R/o2uS\u002BlBPjZX/8GJy\u002BOtk6vr39Z\u002BGI7u48EsSryJYt3Q\u002BX6vfRtm/Jasit9SF9T9Cl9f4YYUrTYlg64u\u002B4waiKRe1KOfSBsGJVk5S2AUtSskVL2V9J3yts2Kp9lGUXZhnvyWMHx4q010fG1YnHcGhr0lP2nXsDfFpbqPV8c9TR1oCIUoilQFQigs7oK7VVVkiLwAKYzWVzLm7BlNhSDHlsrIrgtWo26UAgsCa5mMpjKZpF1vRJwoVgUquc/R84e\u002BVhT46qy8\u002BnnJK\u002B905nM88FQuFPXA2ji4f1bNqFvYwvCAQ0MRgaM2VweJ67M4Mz8QimDvo3NuG9TO9oiFSVGZZbsUpyZm8fx6atYtCw4jgurWJjsqK6\u002B3xNiWDPu7kfOtu8s\u002Bv5DejCoV\u002BoaHurqwMBtHbi4vIxnJ6ZwlgBz2Ry2xWqwu7kJWWbbyawe3rYNnufiT1OXcWJmFoMrCUQZ8D4G4fs\u002BLiXXYTES27bDjuu\u002BZjrOqCbu6oMvxD2eqvbrQUPZHoviAB2NJxL4/uAwBtOkKJ/HyHoKU6kUPhqPo6\u002B9Fbs2bMAK2/xH/xjC35MpVBlBXEiu4bWlFWxjMB9ubMA/GcACg3MdO\u002BC57hs5y3pd5T\u002B4rldLuhWOLGyqqkYNozx5dQZJz8MAqf3G7V345IZGjLKGvxgdRSWdR2jz1MgoxljTvaT\u002B0d4eDGzehFVSeHJ2DjFDZ/0ry43G5pEYEktl7qyRQ2oEyHFJZX2EppWMVe5rVEX45e6THcx6ljqSt00GKfiOK04R2aH8472WPsr\u002B6F/6JobE0sJ9e6EKfEQEtLuUYFAJ0\u002BHupkY0snFeXV7B\u002BVXStLqKK2YBO2IxHPzQDhh0WmTtuutiGEumcWEtibFEEmeWlhFh9l/f3g2dgMcmpzFftOBZRV9xnJOM83Wtou9uIosWD8q9aihkyHaOsnH629vQwWsRZBatpObTbJavdHehhtflyOAQXqXzPc3N\u002BHhDHBwsyJD\u002BrbUxfJU2O\u002BP1\u002BP3kFF5cWIbFrNy8aaqe9zve1zeVusefkJz05oQ4psdquzRm1hQ08EXW4142R0TXS9RwLuIyv\u002BeOT1/BaYJJyvqbN2A/7TrYJIJrOdZylo1TrP/Tl2ewyHvpW0XYyeREpaI8wJIMK02Hj2A9b9YLVXlSrY5\u002BIVBdo8gSVDGz7upKdEQiCLOeKyz4BJtmpkAHspYUnRy1M8CtZCIeCoLfl5hm545n8sgyMzl13ExG\u002BJnUM4ovDtZUhFcVvakZ2oGv6Qz5AS9o/Nioa2hQmaE0lhNHRi0/PSqvTymzm4R7cnaWG0aBy7VsLjmLfXnx11aXVct6jIbH3V/90ladxQU5Cx1Og1dgFl72cllfMLpSp1LZW7y8ZUC5ls5uUu7Jd9JG2sp16azszlzOF6Z5jr7PE8N2JRZt4F4chrHrjqzwvIxnW72KbsQVw2Bq17N5V1LvKTdspUiwbM53kmsjvBOH9YA\u002BVPzZUYFCoQyoBHQYmzYLLxxaEq5recXCVu7FJKik5oOI8CRY1ncSy1OwrZ8w11N6ImHLpLguA8oHd3YGSrzBQSQyxdGT9QtmG8sRV2TPs4H\u002BIzDLIDvSTaU8N7EyAsv6KXk9hoX5rHPqzxD8QSWlDCjFNAEOa7W\u002B3hJVleMEnfTMvCGKhQaOiTAtyt1DLT8wGzl9OMp8zksvnfbd1UTCTa2f5vCUd\u002B2kSjD/7F8gEisleym3hK3U10Nwnip796mtrS0bZxNru6Fp/apu7CTFLYquh7kun\u002BPMEo5TELY97zv2Ba5faIvXnb92bX5OvPSir2QzEJxS75RbAN\u002BS6iiMcBj2/vt1UhplI7Rwt5OtuZn8xspGQv4Uu0qdpKt50po2/vC8Y3MMIpMuWfyfBfg3P/3JmlIhMVMAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-12-21T23:54:21.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ESP32_Network_Services.h",
+              "DocumentMoniker": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\libraries\\ESP32_Network_Services\\ESP32_Network_Services.h",
+              "RelativeDocumentMoniker": "..\\libraries\\ESP32_Network_Services\\ESP32_Network_Services.h",
+              "ToolTip": "Z:\\PROGRAMOWANIE\\ARDUINO\\ESP32\\Szkicownik\\libraries\\ESP32_Network_Services\\ESP32_Network_Services.h",
+              "RelativeToolTip": "..\\libraries\\ESP32_Network_Services\\ESP32_Network_Services.h",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAuwBkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-21T14:54:29.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+#pragma once
+const char PAGE_HTML[] PROGMEM = R"rawliteral(
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESP32 Clock</title>
+<style>
+/* Default (light mode) styles */
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: #333;
+}
+#time{
+    color: #32CD32; /* Light green */
+    font-size: 2em; /* Twice the normal font size */
+    font-weight: bold;
+}
+
+/* Dark mode styles */
+@media(prefers-color-scheme: dark) {
+    body{
+        background-color: #121212;
+        color: #32CD32; /* Light green */
+    }
+        h1{
+            color: #ffcc00;
+    }
+        #time{
+            color: lime; /* Bright green for dark mode */
+    }
+}
+</style>
+<script>
+let socket;
+window.onload = async function () {
+    // WebSocket initialization
+    const response = await fetch('/getWebSocketPort');
+    const websocketPort = await response.text();
+    const esp32Address = "ws://" + window.location.hostname + ":" + websocketPort + "/ws";
+//    const esp32Address = "ws://192.168.1.60:83/ws";
+
+    console.log("WebSocket URL: " + esp32Address);
+
+    socket = new WebSocket(esp32Address);
+
+    socket.onopen = function () {
+        console.log("WebSocket connected");
+    };
+
+    socket.onmessage = function (event) {
+        document.getElementById('time').innerText = event.data;
+    };
+
+    socket.onclose = function () {
+        console.log("WebSocket disconnected");
+        document.getElementById('time').innerText = "Disconnected";
+    };
+
+    socket.onerror = function (error) {
+        console.error("WebSocket error:", error);
+    };
+};
+</script>
+</head>
+<body>
+<h1>ESP32 Clock</h1>
+<p id = "time">Connecting...</p>
+</body>
+</html>
+)rawliteral";

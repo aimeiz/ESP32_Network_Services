@@ -1,0 +1,49 @@
+#ifndef ESP32_NETWORK_SERVICES_H
+#define ESP32_NETWORK_SERVICES_H
+
+#include <Arduino.h>
+#include <WiFi.h>
+#ifdef ENABLE_OTA
+#include <ArduinoOTA.h>
+#endif
+#ifdef ENABLE_FTP
+#include <FTPServer.h>
+#endif
+#ifdef ENABLE_TELNET
+#include <TelnetStream2.h>
+#endif
+#ifdef ENABLE_WEBSERVER
+#include <WebServer.h>
+#endif
+
+#include "credentials.h" // Contains WiFi credentials and user/password settings
+
+// FreeRTOS core selection
+#ifndef NETWORK_SERVICES_CORE
+#define NETWORK_SERVICES_CORE 0
+#endif
+
+// Task handles
+extern TaskHandle_t networkTaskHandle;
+#ifdef ENABLE_WEBSERVER
+extern WebServer server;
+#endif
+
+// Function declarations
+void connectToWiFi();
+#ifdef ENABLE_OTA
+void handleOTA();
+#endif
+#ifdef ENABLE_FTP
+void handleFTP();
+#endif
+#ifdef ENABLE_TELNET
+void handleTelnet();
+#endif
+#ifdef ENABLE_WEBSERVER
+void handleWebServer();
+#endif
+void networkTask(void *parameter);
+void startNetworkServices();
+
+#endif // ESP32_NETWORK_SERVICES_H
