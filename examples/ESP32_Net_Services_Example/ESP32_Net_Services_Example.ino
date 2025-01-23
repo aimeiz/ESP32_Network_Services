@@ -19,12 +19,14 @@
 //#define FASTNET_SERVICE_CORE 1 //Default is core 0
 //#define NETWORK_SERVICES_CORE 1  //Default is core 0
 #include <credentials.h>
-const char* wifiSSID = MYSSID;
-const char* wifiPassword = MYPASSWORD;
-const char* ftpUser = FTPUSER;
-const char* ftpPassword = FTPPASSWORD;
-#define OTA_PASSWORD "robot"
-#define OTA_HOSTNAME VERSION // Set Your ota hostname or leave one related to program name and version
+/* #define MYSSID "Wifi_ssid"
+#ifndef MYPASSWORD
+#define MYPASSWORD "wifi_password"
+#define OTAPASSWORD "Your_Ota_Password"
+#define FTPUSER "Your_Ftp_user"
+#define FTPPASSWORD "Your_ftp_password"
+ #define OTA_HOSTNAME VERSION // Set Your ota hostname or leave one related to program name and version
+ */
 #include <ESP32_Network_Services.h>
 
 #if defined(ENABLE_WEBSOCKETS) && (defined(ENABLE_FTP) || defined(ENABLE_NTP))

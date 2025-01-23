@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32-CAM Photo Viewer</title>
+</head>
+<body>
+    <h1>ESP32-CAM Photo Viewer</h1>
+    <img id="photo" style="width: 100%; max-width: 480px; border: 1px solid black;" alt="ESP32-CAM Photo">
+    <p id="status">Connecting to WebSocket...</p>
+    <script>
+        // Connect to WebSocket server
+        const socket = new WebSocket("ws://192.168.1.83:81"); // Replace with your ESP32 IP and port
+
+        const status = document.getElementById("status");
+        const photo = document.getElementById("photo");
+
+        socket.onopen = () => {
+            status.textContent = "WebSocket connected";
+            console.log("WebSocket connection established");
+
+            // Optionally, send a command to request a photo
+            socket.send("GET_PHOTO");
+        };
+
+        socket.onmessage = (event) => {
+            if (event.data instanceof Blob) {
+                // Create a URL for the binary image data
+                const url = URL.createObjectURL(event.data);
+
+                // Update the <img> element
+                photo.src = url;
+
+                // Update the status
+                status.textContent = "Photo received";
+            } else {
+                console.log("Received text message:", event.data);
+            }
+        };
+
+        socket.onerror = (error) => {
+            status.textContent = "WebSocket error";
+            console.error("WebSocket error:", error);
+        };
+
+        socket.onclose = () => {
+            status.textContent = "WebSocket disconnected";
+            console.log("WebSocket connection closed");
+        };
+    </script>
+</body>
+</html>
